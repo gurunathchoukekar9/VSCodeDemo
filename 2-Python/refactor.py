@@ -1,7 +1,4 @@
 
-
-
-
 class MyClass:
 
     # right click --> rename symbol  equals to Replace all
