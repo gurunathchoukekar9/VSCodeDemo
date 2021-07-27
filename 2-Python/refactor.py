@@ -2,15 +2,15 @@
 class MyClass:
 
     # right click --> rename symbol  equals to Replace all
-    def myfunc1(self):
+    def myfunc1():
         pass
- 
+        
     # extract variable
-    def myfunc2(self, age):
+    def myfunc2(age):
         return (age+10)
 
     # select code --> right click --> Extract method
-    def myfunc3(self):
+    def myfunc3():
         print("message1")
         print("message2")
         print("message3")
