@@ -7,7 +7,7 @@ class MyClass:
     # right click --> rename symbol  equals to Replace all
     def myfunc1(self):
         pass
-
+ 
     # extract variable
     def myfunc2(self, age):
         return (age+10)
