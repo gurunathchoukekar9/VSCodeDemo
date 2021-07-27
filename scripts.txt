@@ -1,0 +1,4 @@
+venv\scripts\activate
+where python
+py -m pip install botostubs
+py -m pip freeze > requirements.txt
