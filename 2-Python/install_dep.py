@@ -2,22 +2,21 @@
 import boto3
 import botostubs
 
-#......
-#pip uninstall boto3 botostubs
-#pip install boto3 botostubs
-#......
+# ......
+# pip uninstall boto3 botostubs
+# pip install boto3 botostubs
+# ......
 
 
-client = boto3.client('s3',region_name='us-east-1')
-
+client = boto3.client('s3', region_name='us-east-1')
 
 print("Bucket List....")
 print("...")
 
 
-#....
-#intelliscense
-#....
+# ....
+# intelliscense
+# ....
 result = client.list_buckets()
 
 
@@ -26,4 +25,3 @@ for itm in result["Buckets"]:
 
 print("...")
 print("script completed..")
-
